@@ -1,0 +1,28 @@
+select {
+    appearance: none;
+}
+.dropdown-css {
+    border: 0px;
+    background-color: transparent;
+    width: 110%;
+    margin: 3px;
+    padding: 18px;
+    font-size: 18px;
+    line-height: 1;
+    background: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") no-repeat right;
+    background-position-x: 1;
+}
+.Logo {
+    font: small-caps bold 32px/3 cursive;
+}
+.search-button {
+    padding: auto;
+}
+.loading-indicator-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading-indicator {
+    margin-left: 13px;;
+}
