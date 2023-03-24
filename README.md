@@ -1,2 +1,3 @@
-# Manga_metadata_lookup
+# Manga Metadata Lookup
+
 A web app to look up manga metadata from various sources.
