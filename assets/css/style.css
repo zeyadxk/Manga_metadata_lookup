@@ -16,7 +16,10 @@ select {
     font: small-caps bold 32px/3 cursive;
 }
 .search-button {
-    padding: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 16pt;
 }
 .loading-indicator-box {
     display: flex;

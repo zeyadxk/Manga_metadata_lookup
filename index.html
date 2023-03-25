@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/bootstrap/js/script.js"></script>
+    
 </head>
 
-<body>
+<body onload="populatemenu()">
         <div class="container text-center">
             <a class="navbar-brand text-center" href="index.html">
                 <span class="Logo">Manga Metadata Lookup</span>
@@ -34,7 +35,7 @@
             </div>
             <br><br>
             <div id="search-div" class="loading-indicator-box">
-            <button class="btn btn-lg btn-primary search-button" type="button" onclick="lookup()">Loookup</button>
+            <button class="btn btn-lg btn-primary search-button" type="button" onclick="lookup()">Look up</button>
             <!--<span class="spinner-border text-center loading-indicator" role="status"></span>-->
         </div>
         </div>
